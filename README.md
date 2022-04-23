@@ -77,6 +77,10 @@ To run this project, you will need to add the following environment variables to
 
 [@Himanshusinghofficial](https://github.com/Himanshusinghofficial)
 
+## 🔗 Link
+
+[![Assignment Link]](https://iauro-weather-app.herokuapp.com/)
+
 ## Appendix
 
 Used basic styling/css for creating frontend
