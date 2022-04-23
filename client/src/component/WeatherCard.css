@@ -1,0 +1,51 @@
+  .card {
+    margin-top: 10px;
+    background: #E7E9F0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  .card_info_place {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .card_info_time {
+    font-size: 30px;
+    margin: 10px 0;
+  }
+  .card_info_date {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  .card_weather {
+    display: flex;
+    align-items: center;
+  }
+  .card_weather_temp {
+    font-size: 30px;
+  }
+  .card_weather_icon {
+    animation: move 1s infinite alternate ease-in-out;
+  }
+  
+  @keyframes move {
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+  }
+
+  @media (max-width: 700px) {
+    .grid-3 {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
